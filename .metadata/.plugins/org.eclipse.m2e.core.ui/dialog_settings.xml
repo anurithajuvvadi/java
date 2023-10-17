@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Saiteja\eclipse-workspace\jdbc\src\jdbc\EmployeeRecord.java"/>
+			<item value="C:\Users\Saiteja\eclipse-workspace\hibernatewithjpa1\src\main\java\hibernatewithJPA1\hibernatewithjpa1\Employee.java"/>
+			<item value="C:\Users\Saiteja\eclipse-workspace\springcore\src\main\java\com\spring\App.java"/>
+			<item value="C:\Users\Saiteja\eclipse-workspace\hibernate_project\src\main\java\hibernate_new\hibernate_project\App.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.hibernate"/>
+			<item value="springdemo.springtutorial"/>
+			<item value="springdemo.hibernatejpatutorial"/>
+			<item value="springdemo.hibernatetutorial"/>
+			<item value="springdemo.springusingcollections"/>
+			<item value="springdemo.springcoreorderexample"/>
+			<item value="com.spring"/>
+			<item value="hibernatewithJPA1.manytoonemapping"/>
+			<item value="hibernatewithJPA1"/>
+			<item value="hibernatewithJPA1.hibernatewithjpa1"/>
+			<item value="hibernatewithJPA.hibernatewithJPA"/>
+			<item value="hibernate_new.hibernate_project"/>
+		</list>
+		<list key="groupId">
+			<item value="com.hibernate"/>
+			<item value="springdemo"/>
+			<item value="hibernatewithJPA1"/>
+			<item value="hibernatewithJPA"/>
+			<item value="hibernate_new"/>
+		</list>
+		<list key="artifactId">
+			<item value="springtutorial"/>
+			<item value="hibernatejpatutorial"/>
+			<item value="hibernatetutorial"/>
+			<item value="springusingcollections"/>
+			<item value="springcoreorderexample"/>
+			<item value="springcore"/>
+			<item value="manytoonemapping"/>
+			<item value="hibernatewithjpa1"/>
+			<item value="hibernatewithJPA"/>
+			<item value="hibernate_project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

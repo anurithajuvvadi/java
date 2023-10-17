@@ -1,0 +1,25 @@
+package java_tutorial;
+
+public class assarrays {
+
+	public static void main(String[] args) {
+String str="hellojava";
+char y=str.charAt(0);
+int n=str.length();
+char z=str.charAt(n-1);
+if((y == 'a' || y == 'e' || y == 'i' || y == 'o'
+|| y == 'u')) {
+	System.out.println("it is a vowel");
+	
+	
+}
+if ((z == 'a' || z == 'e' || z == 'i' || z == 'o'
+|| z == 'u')) {
+	System.out.println("it is a vowel");
+}
+else {
+	System.out.println("it is a consonant");
+}
+	}
+
+}

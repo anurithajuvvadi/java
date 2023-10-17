@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:c="http://www.springframework.org/schema/c"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <!--this is our bean
+ <bean class="com.spring.Student" name="student1">
+	 <property name="sid">
+		 <value>12345</value>
+	 </property>
+	 <property name="sname">
+		 <value>anuritha</value>	 
+	 </property>
+	 <property name="saddress">
+		 <value>hyderabad</value>	 
+	 </property>
+	 
+	 
+ </bean>
+ 
+ <bean class="com.spring.Student" name="student2">
+	 <property name="sid">
+		 <value>12346</value>
+	 </property>
+	 <property name="sname">
+		 <value>anu</value>	 
+	 </property>
+	 <property name="saddress">
+		 <value>hyd</value>	 
+	 </property>
+	 
+	 
+ </bean>
+ 
+ 
+ -->
+ <bean name="cer" class="com.spring.constructor.Certificate" >
+	<constructor-arg>
+		 <value>
+			 JFS
+		 </value>
+	 </constructor-arg> 
+ </bean>
+ <bean name="per" class="com.spring.constructor.Person">
+	 <constructor-arg>
+		 <value>
+			 anuritha
+		 </value>
+	 </constructor-arg>
+	 <constructor-arg>
+		 <value>
+			1
+		 </value>
+	 </constructor-arg>
+	 
+	 <constructor-arg ref="cer">
+
+	 </constructor-arg>
+	 
+ </bean>
+ 
+ 
+ 
+ </beans>

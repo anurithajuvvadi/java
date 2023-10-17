@@ -1,0 +1,45 @@
+package springdemo.springusingcollections;
+
+import java.util.List;
+
+public class Employee {
+	private String companyname;
+	private List<String> empname;
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Employee(String companyname, List<String> empname) {
+		super();
+		this.companyname = companyname;
+		this.empname = empname;
+	}
+	public String getCompanyname() {
+		return companyname;
+	}
+	public void setCompanyname(String companyname) {
+		this.companyname = companyname;
+	}
+	public List<String> getEmpname() {
+		return empname;
+	}
+	public void setEmpname(List<String> empname) {
+		this.empname = empname;
+	}
+	@Override
+	public String toString() {
+		return "Employee [companyname=" + companyname + ", empname=" + empname + "]";
+	}
+	public void display() {
+		System.out.println("compny:"+companyname);
+		System.out.println("compny:"+companyname);
+		for(String employee:empname) {
+			System.out.println("-"+employee);
+		}
+		
+
+		
+	}
+	
+
+}

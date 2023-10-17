@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <!--this is our bean-->
+ <bean class="springdemo.springcoreorderexample.Order" name="order1">
+	 <property name="order_id">
+		 <value>12345</value>
+	 </property>
+	 <property name="product_name">
+		 <value>book</value>	 
+	 </property>
+	 <property name="order_no">
+		 <value>1001</value>	 
+	 </property>
+	 
+	 
+ </bean>
+ </beans>
